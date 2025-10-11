@@ -1,0 +1,22 @@
+covid19-analysis/
+│
+├── data/
+│   ├── raw/                # Dados brutos (ex: CSV original baixado)
+│   ├── processed/          # Dados tratados (limpos com Python)
+│
+├── notebooks/
+│   ├── 01_exploracao.ipynb # Análise exploratória inicial (ver o que tem nos dados)
+│   ├── 02_limpeza.ipynb    # Código de limpeza e tratamento
+│   ├── 03_analise.ipynb    # Análises, gráficos e insights
+│
+├── scripts/
+│   ├── download_data.py    # Script pra baixar dados automaticamente
+│   ├── limpeza.py          # Funções de limpeza
+│   ├── visualizacao.py     # Funções de gráficos
+│
+├── reports/
+│   ├── dashboard.pbix      # Dashboard Power BI (se quiser integrar)
+│   ├── covid_report.pdf    # Relatório final (gráficos + conclusões)
+│
+├── README.md               # Explica o projeto, tecnologias e resultados
+└── requirements.txt        # Lista de bibliotecas usadas (Pandas, Matplotlib, etc)
